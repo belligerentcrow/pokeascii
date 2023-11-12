@@ -1,0 +1,3 @@
+pip install pypokedex
+pip install BeautifulSoup
+pip install Requests
