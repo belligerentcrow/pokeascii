@@ -3,8 +3,6 @@
 # make output dir
 mkdir -p output
 
-echo $@
-
 # get pokemon stat and output to file
 /usr/bin/env python3 pokemain.py $@ >> output/log.txt
 
