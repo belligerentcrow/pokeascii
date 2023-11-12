@@ -1,8 +1,8 @@
 # pokeascii
 
-[Screenshot of lucario](./ScreeshotLuc.png)
+![Screenshot of lucario](./ScreeshotLuc.png)
 
-[Screenshot of Pikachu](./ScreenshotPikachu.png)
+![Screenshot of Pikachu](./ScreenshotPikachu.png)
 
 A little python and bash script that takes as input a pokemon name and returns its sprite. With the -R flag it returns a random pokemon from any generation. Greatly inspired by [rmccorm4](https://github.com/rmccorm4)'s [Pokefetch](https://github.com/rmccorm4/Pokefetch) project. Thank you for the idea.
 Needs [TheZoraiz](https://github.com/TheZoraiz) 's [ascii-image-converter](https://github.com/ascii-image-converter) in order to work.
