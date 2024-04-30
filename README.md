@@ -3,14 +3,14 @@
 ![Screenshot of Pikachu](./ScreenshotPikachu.png)
 
 A little python and bash script that takes as input a pokemon name and returns its sprite. With the -R flag it returns a random pokemon from any generation. Greatly inspired by [rmccorm4](https://github.com/rmccorm4)'s [Pokefetch](https://github.com/rmccorm4/Pokefetch) project. Thank you for the idea.
-Needs [TheZoraiz](https://github.com/TheZoraiz) 's [ascii-image-converter](https://github.com/ascii-image-converter) in order to work.
+Needs [TheZoraiz](https://github.com/TheZoraiz) 's [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter) in order to work.
 
 ## Requirements
-As listed in the [Requirements.txt](https://github.com/belligerentcrow/pokeascii/Requirements.txt) file: 
+As listed in the [Requirements.txt](https://github.com/belligerentcrow/pokeascii/Requirements.txt) file:
 
-* Install [TheZoraiz](https://github.com/TheZoraiz)'s [ascii-image-converter](https://github.com/ascii-image-converter) 
+* Install [TheZoraiz](https://github.com/TheZoraiz)'s [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter)
 
-As explained in their repository's [Installation section](https://github.com/TheZoraiz/ascii-image-converter#installation) 
+As explained in their repository's [Installation section](https://github.com/TheZoraiz/ascii-image-converter#installation)
 
 * Beautiful Soup
 ```
@@ -52,7 +52,7 @@ run the .sh file with the name of a pokemon u want the ascii of with its name as
 ./pokesh.sh <NAME>
 ```
 
-### Random 
+### Random
 
 run the .sh file with the -R flag
 
@@ -62,8 +62,7 @@ run the .sh file with the -R flag
 
 In any case, the script will download the png of the chosen pokemon in the ./output/imgs/ folder, and log the name of the pokemon you've searched in the ./output/log.txt file.
 
-At this point in time, i haven't yet implemented a good error catcher in case of misspells or any of the sort. The output is getting logged. u can just delete it and the images if you dont want extra space on your machine for now. 
-
+At this point in time, i haven't yet implemented a good error catcher in case of misspells or any of the sort. The output is getting logged. u can just delete it and the images if you dont want extra space on your machine for now.
 
 
 
